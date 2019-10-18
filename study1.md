@@ -9,12 +9,16 @@
 
 ## 직렬화
 content = JSONRenderer().render(serializer.data)
+
 뷰 함수에서
+
 return JsonResponse(serializer.data)
 
 ## 역직렬화
 stream = io.BytesIO(content) # json 전달
+
 data = JSONParser().parse(stream)
+
 data를 Serializer에 전달하여 객체 인스턴스로 복원
 
 
@@ -24,5 +28,6 @@ data를 Serializer에 전달하여 객체 인스턴스로 복원
 ... (vscode)
 
 format_suffix_patterns(urlpatterns)
+
 이건 뭔지 모르겠다
 
