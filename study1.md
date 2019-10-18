@@ -9,7 +9,6 @@
 
 ## 직렬화
 content = JSONRenderer().render(serializer.data)
-
 뷰 함수에서
 return JsonResponse(serializer.data)
 
