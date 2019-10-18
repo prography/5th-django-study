@@ -1,5 +1,5 @@
 
-#Tutorial 1: Serialization
+# Tutorial 1: Serialization
 
 
 ## Model - Serializer 관계
@@ -19,7 +19,7 @@ data를 Serializer에 전달하여 객체 인스턴스로 복원
 
 
 
-#Tutorial 2: Requests and Responses
+# Tutorial 2: Requests and Responses
 
 ... (vscode)
 
