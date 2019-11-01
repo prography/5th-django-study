@@ -44,7 +44,7 @@ INSTALLED_APPS += [
     'fbv', # 'fbv.apps.FbvConfig',
     'cbv',
     'mixin',
-    # 'viewset',
+    'viewset',
 ]
 
 MIDDLEWARE = [
