@@ -20,7 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('fbv/', include('fbv.urls')),
-    path('cbv/', include('cbv.urls')),
-    path('mixin/', include('mixin.urls')),
-    path('viewset/', include('viewset.urls')),
+    # path('cbv/', include('cbv.urls')),
+    # path('mixin/', include('mixin.urls')),
+    # path('viewset/', include('viewset.urls')),
 ]
