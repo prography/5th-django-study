@@ -1,0 +1,11 @@
+class vs functuon view
+class: 상속이 가능하지만, 주니어에게는 코드가 한 눈에 보기가 힘들다
+
+@api_view: drf 함수로 만들어준다??
+
+django랑 DRF의 class vs function view가 있지만 서로 다른것.
+
+form은 html을 리턴해주고 serializer는 json을 리턴해준다고 생각하면 됨
+
+HTTP 응답 코드에 대해서 알 필요성이 있다.
+
